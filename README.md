@@ -1,10 +1,10 @@
 # ttvposteriors
 Joint posterior samples from Kipping, D., 2020, "An Independent Analysis of the Six Recently Claimed Exomoons", The Astropysical Journal Letters, Accepted.
 
-Files beginning with T_ correspond to posterior sample files for model T, which accounts for transit timing variations. In some cases, a KOI has two files for model T, denoted by the suffix "\_1.dat" and "\_2.dat" which correspond to the two segments used (see the paper for details). For T files, the first 7 columns correspond to the global shape parameters of the transit, which are...\\
+Files beginning with T_ correspond to posterior sample files for model T, which accounts for transit timing variations. In some cases, a KOI has two files for model T, denoted by the suffix "\_1.dat" and "\_2.dat" which correspond to the two segments used (see the paper for details). For T files, the first 7 columns correspond to the global shape parameters of the transit, which are:
 
-1] R_p/R_*\\
-2] rho_* [km/m3]\\
+1] R_p/R_*
+2] rho_* [km/m3]
 3] b
 4] P [days]
 5] tau_0 [BJDutc - 2,400,000]
